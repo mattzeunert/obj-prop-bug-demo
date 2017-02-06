@@ -1,0 +1,39 @@
+<style>
+body {
+    font-family: Myriad Pro, Arial;
+}
+#authors th:first-child {
+    text-align: left;
+}
+#authors td:last-child {
+    text-align: right;
+}
+section {
+    float: left;
+    width: 50%
+}
+.container {
+    max-width: 1024px;
+    margin: auto
+}
+</style>
+
+
+<div class="container">
+    <h1>Recent Babel Contributers</h1>
+
+    <section>
+        <h2>Authors</h2>
+        <div id="authors"></div>
+    </section>
+
+    <section>
+        <h2 id="commits-by-author"></h2>
+        <div id="commits"></div>
+    </section>
+</div>
+
+
+<script src="data.js"></script>
+<script src="dist/app.js"></script>
+
