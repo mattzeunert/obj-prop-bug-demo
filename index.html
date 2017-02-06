@@ -1,12 +1,22 @@
 <style>
-body {
+body, table {
     font-family: Myriad Pro, Arial;
+    font-size: 20px;
+}
+li {
+    line-height: 1.5em;
 }
 #authors th:first-child {
     text-align: left;
 }
 #authors td:last-child {
     text-align: right;
+}
+#authors tr {
+    cursor: pointer;
+}
+#authors tr:hover {
+    color: #3358ec;   
 }
 section {
     float: left;
@@ -34,6 +44,5 @@ section {
 </div>
 
 
-<script src="data.js"></script>
 <script src="dist/app.js"></script>
 

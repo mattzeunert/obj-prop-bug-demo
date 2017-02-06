@@ -1,3 +1,5 @@
+import commits from "./data"
+
 export default function(){
     var commitsByAuthor = {}
     commits.forEach(function(commit){

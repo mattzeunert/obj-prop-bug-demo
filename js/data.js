@@ -1,4 +1,6 @@
-window.commits = [
+//https://api.github.com/repos/babel/babel/commits
+
+export default [
   {
     "sha": "8c3392f058029d28c637fa07e8e1fc2af23b902c",
     "commit": {
